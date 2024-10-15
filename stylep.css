@@ -130,11 +130,73 @@ a {
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
 
+
+/*------------------------------ Sección de Formacion academica --------------------------------*/
+
+.formacion{
+    padding: 32px;
+    padding-bottom: 16px;
+    background-color: #EAF2FD;
+}
+
+.formacion__titulo{
+    text-align: center;
+}
+
+.formacion__lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.formacion__elemento h3{
+    margin-bottom: 0;
+}
+
+.formacion__elemento p{
+    margin-top: 0;
+}
+
+.formacion__container-img{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /*------------------------------ Sección de Proyectos --------------------------------*/
+
+.proyectos{
+    padding: 32px;
+}
 
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
 
+.contacto{
+    padding: 32px;
+    background-color: #EAF2FD;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contacto__campo{
+    height: 56px;
+}
+
+.contacto__campo--textarea{
+    height: 133px;
+}
+
+.contacto__boton{
+    width: 133px;
+    height: 40px;
+}
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
